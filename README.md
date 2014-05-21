@@ -7,9 +7,12 @@ No frills guide to the twitter bootstrap CSS framework making a responsive webap
 Prerequisites:
 1. Download and extract the twitter bootstrap files,
 "bootstrap.zip" from their github :http://twitter.github.io/bootstrap/index.html
+
 2.Place your index.html on the same level as the directories 
 extracted from bootstrap.zip.
-Ex. Project/
+
+Ex. 
+    Project/
 
 			css/
 			
@@ -25,14 +28,13 @@ tag to activate it in your html file.
 Note: I'll be purposely using "#"s in the code to show you what code creates what 
 elements in the webpapp and using <!-- --> for comments in the code to narrate what is going on.
 
-
-Overview:
+Note:
 The Twitter Bootstrap uses set of predefined classes for each element in your HTML.
 These predefined classes are used on a design area measured by a unit of "spans",
 which must 12 "spans" in total.
 
 Ex. I want my Descriptive content and side bar to be share an area. 66% for Content 33% for Sidebar:
-
+<code>
 <div class="container">
     <div class="row-fluid">
         <div class="span8">
@@ -43,9 +45,9 @@ Ex. I want my Descriptive content and side bar to be share an area. 66% for Cont
         </div>
     </div>
 </div>
+</code>
 
-
- Here's the layout of the site we're going to be thinking up a pretty generic website:
+ Here's the layout of the site we're going to be thinking up a pretty generic website frontpage:
  
 1.Header - Site's logo image and navigation.
 

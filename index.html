@@ -3,14 +3,14 @@
 <html>
 	<head>
 	    <meta charset="utf-8">
-	    <!-- -->
+	    <!--We want this to be a responsive webapp-->
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <title>Twitter Bootstrap Title</title>
-	    <!--1.We want to use the twitterBS CSS sheet and make the future webapp to be responsive so:-->
+	    <!--1.We want to use the twitterBS CSS sheets and make the future webapp responsive to changes so:-->
 	    <link rel="stylesheet" href="css/bootstrap.css">
 	    <link rel="stylesheet" href="css/bootstrap-responsive.css" type="text/css"/>  
 	    
-	    <!--#2.Encompass everything in a "container" class-->
+	    <!--#2.Encompass our navigation menu in a "container" class to start-->
 		<div class="container">
 			<!--#3.Our navigation menu -->
 			<div class="navbar navbar-fixed-top">
@@ -19,9 +19,9 @@
 		        		<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 		        		<span class="icon-th-list"></span></a>
 		        		<a href="#" class="brand">Mike's Motor</a>
-		        		<!--Let's make is responsive-->
+		        		<!--Let's make the navigation menu responsive-->
 		        		<div class="nav-collapse collapse">
-		        			<!-- dropdown class Allows us to do dropdown menus -->
+		        			<!-- dropdown class allows us to do dropdowns from our menu -->
 		            		<ul class="nav pull-right dropdown">
 		                		<li class="active"><a href="#">Home</a></li>
 		                		<li><a href="#">About Us</a></li>
@@ -32,6 +32,7 @@
 								        <i class="icon-th-small"></i> Motors
 								        <b class="caret"></b>
 								    </a>
+								    <!--Specifies our dropdown items to be displayed -->
 								    <ul class="dropdown-menu">
 								        <li><a href="#">Product 1</a></li>
 								        <li><a href="#">Product 2</a></li>
@@ -48,7 +49,7 @@
 	<body>
 		<br /><br />
     	#Marketing area.
-    	<!--Hero unit class creates and area that is useful for jQuery sliders or other attention grabbing scrolling content -->
+    	<!--Hero unit class creates an area that is useful for jQuery sliders or other attention grabbing scrolling content -->
     	<div class="hero-unit">
 		    <div class="container">
 		        <h1>What can your motor do for you?</h1>
@@ -60,13 +61,13 @@
 		<!-- First we create a container for the two 
 		sections of our webapp -->
 		<div class="container">
-			<!--We want it to be responsive -->
+			<!--We want the area we created to be responsive -->
 		    <div class="row-fluid">
 		    	<!-- We want it to be 8/12 big -->
 		        <div class="span8">
 		        	#5.Main Content
-		        	<!--We want it to have 2 nested sections
-		        	underneath 6/12 each, of this new section which is 8/12 of the parent section -->
+		        	<!--We want this area to have 2 newnested sections
+		        	underneath 6/12 each. -->
 		        	<div class="row-fluid">
 					    <div class="span6">
 					        <h4>See our offices</h4>
@@ -82,9 +83,10 @@
 					</div>
 
 					<br />
+					<!-- We resume one column after finishing the nested two column section above -->
 		        	<p>Let's talk motors and stuff.Of Motors and men, in the begining there were men, motorless men who dared to move more than mere mice.</p>
 					 
-					<p class="lead">Here's come the Hemmi.</p>
+					<p class="lead">Here comes the Hemmi.</p>
 					 
 					<p>The best motor ever made.Raging across the highways and biways crushing anything in its path.Peddle to the metal and go for the show all the way with this one. I'm so happy words can't contain the happy that is I currently with this beast.</p>
 		        </div>

@@ -35,7 +35,8 @@ which must 12 "spans" in total.
 
 Ex. I want my Descriptive content and side bar to be share an area. 66% for Content 33% for Sidebar:
 '''html
- <div class="container">
+
+<div class="container">
    <div class="row-fluid">
         <div class="span8">
 		     The Main Content (It's 66.6..%) of the area.
@@ -45,6 +46,7 @@ Ex. I want my Descriptive content and side bar to be share an area. 66% for Cont
         </div>
     </div>
   </div> 
+  
 '''
 
  Here's the layout of the site we're going to be thinking up a pretty generic website frontpage:

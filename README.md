@@ -34,7 +34,7 @@ These predefined classes are used on a design area measured by a unit of "spans"
 which must 12 "spans" in total.
 
 Ex. I want my Descriptive content and side bar to be share an area. 66% for Content 33% for Sidebar:
-'''html
+```html
 
 <div class="container">
    <div class="row-fluid">
@@ -47,7 +47,7 @@ Ex. I want my Descriptive content and side bar to be share an area. 66% for Cont
     </div>
   </div> 
   
-'''
+```
 
  Here's the layout of the site we're going to be thinking up a pretty generic website frontpage:
  

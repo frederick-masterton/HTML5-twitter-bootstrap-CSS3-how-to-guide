@@ -1,5 +1,6 @@
 '''
-No frills guide to the twitter bootstrap CSS framework.
+
+No frills guide to the twitter bootstrap CSS framework making a responsive webapp.
 
 '''
 
@@ -9,9 +10,13 @@ Prerequisites:
 2.Place your index.html on the same level as the directories 
 extracted from bootstrap.zip.
 Ex. Project/
+
 			css/
+			
 			img/
+			
 			js/
+			
 			index.html
 
 Note: Twitter bootstrap is used with HTML5, so you need to have a <!DOCTYPE html> 
@@ -27,7 +32,7 @@ These predefined classes are used on a design area measured by a unit of "spans"
 which must 12 "spans" in total.
 
 Ex. I want my Descriptive content and side bar to be share an area. 66% for Content 33% for Sidebar:
-<!--//
+
 <div class="container">
     <div class="row-fluid">
         <div class="span8">
@@ -38,14 +43,18 @@ Ex. I want my Descriptive content and side bar to be share an area. 66% for Cont
         </div>
     </div>
 </div>
--->
+
 
  Here's the layout of the site we're going to be thinking up a pretty generic website:
  
-1.Header - Site's logo image and navigation. /n \n
-2.Main Splash - Site's jQuery image slider or something eye catching
+1.Header - Site's logo image and navigation.
+
+2.Main Splash - Site's jQuery image slider or something eye catching.
+
 3.A side bar - Site may have some kind of new deals, best selling items usually.
+
 4.Footer - Copyright information, follow on social media etc.
+
 5.Descriptive content - Maybe special collections, A sale or an in depth look for a product.
 
 Please see index.html for the code. 

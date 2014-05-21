@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <!-- -->
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Twitter Bootstrap Title</title>
+	    <!--1.We want to use the twitterBS CSS sheet and make the future webapp to be responsive so:-->
+	    <link rel="stylesheet" href="css/bootstrap.css">
+	    <link rel="stylesheet" href="css/bootstrap-responsive.css" type="text/css"/>  
+	    
+	    <!--#2.Encompass everything in a "container" class-->
+		<div class="container">
+			<!--#3.Our navigation menu -->
+			<div class="navbar navbar-fixed-top">
+    			<div class="navbar-inner">
+	        		<div class="container">
+		        		<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+		        		<span class="icon-th-list"></span></a>
+		        		<a href="#" class="brand">Mike's Motor</a>
+		        		<!--Let's make is responsive-->
+		        		<div class="nav-collapse collapse">
+		        			<!-- dropdown class Allows us to do dropdown menus -->
+		            		<ul class="nav pull-right dropdown">
+		                		<li class="active"><a href="#">Home</a></li>
+		                		<li><a href="#">About Us</a></li>
+		                		<li><a href="#">Contact Us</a></li>
+		                		<!--Specifies this element will dropdown -->
+		                		<li class="dropdown">
+								    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								        <i class="icon-th-small"></i> Motors
+								        <b class="caret"></b>
+								    </a>
+								    <ul class="dropdown-menu">
+								        <li><a href="#">Product 1</a></li>
+								        <li><a href="#">Product 2</a></li>
+								        <li><a href="#">Product 3</a></li>
+								    </ul>
+								</li>
+		           		 	</ul>
+		            	</div>
+       	    	</div>
+    		</div>
+    	</div>
+   	</head>
+
+	<body>
+		<br /><br />
+    	#Marketing area.
+    	<!--Hero unit class creates and area that is useful for jQuery sliders or other attention grabbing scrolling content -->
+    	<div class="hero-unit">
+		    <div class="container">
+		        <h1>What can your motor do for you?</h1>
+		        <p class="lead">From Ferrari to Fiat they all have them.</p>
+		        <p><a href="#" class="btn btn-success btn-large">Have a look</a></p>
+		    </div>
+		</div>
+		#Side bar and Main Content area
+		<!-- First we create a container for the two 
+		sections of our webapp -->
+		<div class="container">
+			<!--We want it to be responsive -->
+		    <div class="row-fluid">
+		    	<!-- We want it to be 8/12 big -->
+		        <div class="span8">
+		        	#5.Main Content
+		        	<!--We want it to have 2 nested sections
+		        	underneath 6/12 each, of this new section which is 8/12 of the parent section -->
+		        	<div class="row-fluid">
+					    <div class="span6">
+					        <h4>See our offices</h4>
+					        <p>Located in lovely Chelsea Market Downtown Manhattan... </p>
+					        <a href="#" class="btn btn-primary"><i class="icon-heart icon-white"></i> Our Offices</a>
+					    </div>
+					    <div class="span6">
+					    	
+					        <h4>Meet our Staff</h4>
+					        <p>Meet the team of talented individuals. <a href="#">Click here</a>.</p>
+					        <a href="#" class="btn btn-primary"><i class="icon-music icon-white"></i> Meet Our Staff</a>
+					    </div>
+					</div>
+
+					<br />
+		        	<p>Let's talk motors and stuff.Of Motors and men, in the begining there were men, motorless men who dared to move more than mere mice.</p>
+					 
+					<p class="lead">Here's come the Hemmi.</p>
+					 
+					<p>The best motor ever made.Raging across the highways and biways crushing anything in its path.Peddle to the metal and go for the show all the way with this one. I'm so happy words can't contain the happy that is I currently with this beast.</p>
+		        </div>
+		        <div class="span4 well">
+		        	<!--Now lets add the side bar by declaring a nav nav-list class -->
+		        	#3.Side bar
+				    <ul class="nav nav-list">
+				        <li class="nav-header">More information</li>
+				        <li class="active"><a href="#">Overview</a></li>
+				        <li><a href="#">Web App Development</a></li>
+				        <li><a href="#">Mobile Applications</a></li>
+				        <!-- Let's add a divider to talk about a new group of items -->
+				        <li class="divider"></li>
+				        <li class="nav-header">BestSellers</li>
+				        <li><a href="#">Mini Hemmi</a></li>
+				        <li><a href="#">Normal Hemmi</a></li>
+				        <li><a href="#">Max Hemmi</a></li>
+				        <li class="divider"></li>
+				        <li><a href="#">Help</a></li>
+				    </ul>
+				</div>
+			</div>
+		</div>
+		#4.Footer Section
+		<div class="container">
+		    <div class="row-fluid">
+		        <div class="span4">
+		            <p>&copy; 2014 <a href="#">Mike's Motor</a></p>
+		        </div>
+		        <div class="span4 text-center">
+		            <ul class="nav inline">
+		                <li><a href="#">About Us</a></li>
+		                <li><a href="#">Contact Us</a></li>
+		                <li><a href="#">Privacy Policy</a></li>
+		            </ul>
+		        </div>
+		        
+		    </div>
+		</div>
+
+		#P2.Include JQuery 
+		<!--Include the required fields near the end of our body tag to reduce website loading drag -->
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		#P3.Include our actual TwitterBootStrap file from your JS folder
+		<script src="js/bootstrap.js”></script>"
+	</body>
+
+</html>
